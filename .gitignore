@@ -21,3 +21,5 @@ gradle-app.setting
 /library
 /library/*.dic
 /library/*model
+.DS_Store
+library/
