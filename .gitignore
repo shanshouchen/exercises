@@ -19,3 +19,5 @@ gradle-app.setting
 /data/*
 /library/*
 .DS_Store
+data/
+library/

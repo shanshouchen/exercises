@@ -1,5 +1,19 @@
 rootProject.name = 'exercises'
 
-include 'io-netty'
+
 include 'search-analyzer-ansj'
+include 'foundation'
+include 'mq'
+
+include 'web:jersey-server'
+findProject(':web:jersey-server')?.name = 'jersey-server'
+
+include 'web:jersey-client'
+findProject(':web:jersey-client')?.name = 'jersey-client'
+
+include 'search:analyzer:analyzer-ansj'
+findProject(':search:analyzer:analyzer-ansj')?.name = 'analyzer-ansj'
+
+include 'io:io-netty'
+findProject(':io:io-netty')?.name='io-netty'
 
