@@ -1,4 +1,4 @@
-package com.jason.exercises.jdk.defaults;
+package com.exercises.foundation.defaults;
 
 import org.junit.Assert;
 import org.junit.Test;

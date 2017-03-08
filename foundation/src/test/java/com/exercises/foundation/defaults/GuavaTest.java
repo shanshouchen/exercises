@@ -1,4 +1,4 @@
-package com.jason.exercises.jdk.defaults;
+package com.exercises.foundation.defaults;
 
 import com.google.common.collect.TreeMultiset;
 import org.junit.Assert;

@@ -1,4 +1,4 @@
-package com.jason.exercises.jdk.streams;
+package com.exercises.foundation.streams;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -30,7 +30,7 @@ public class CollectorsTest {
     public void test3() {
         long time=System.currentTimeMillis();
         Map<Integer, Integer> map =
-                IntStream.range(0, 1000000000).boxed()
+                IntStream.range(0, 1000).boxed()
                         .collect(
                                 Collectors.toMap(
                                         Function.identity(),

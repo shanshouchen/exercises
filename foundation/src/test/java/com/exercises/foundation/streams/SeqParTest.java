@@ -1,4 +1,4 @@
-package com.jason.exercises.jdk.streams;
+package com.exercises.foundation.streams;
 
 import org.junit.Assert;
 import org.junit.Before;

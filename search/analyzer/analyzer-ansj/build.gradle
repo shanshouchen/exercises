@@ -10,7 +10,14 @@ repositories {
     mavenLocal()
     mavenCentral()
     maven {
-        url "http://maven.nlpcn.org/"
+        url 'http://maven.nlpcn.org/'
+    }
+    maven {
+        url 'http://mvnrepository.com'
+    }
+    //for com.weibangong:com.weibangong.solr.ansj:1.2-SNAPSHOT
+    maven {
+        url 'http://nexus.haizhi.com:81'
     }
 }
 
@@ -19,8 +26,6 @@ dependencies {
     compile 'org.ansj:ansj_seg:5.0.4'
     compile 'com.chenlb.mmseg4j:mmseg4j-core:1.10.0'
     compile 'com.weibangong:com.weibangong.solr.ansj:1.2-SNAPSHOT'
-//    compile 'org.apache.commons:commons-io:2.4'
-
-
+    compile 'commons-io:commons-io:2.5'
     testCompile group: 'junit', name: 'junit', version: '4.11'
 }

@@ -1,4 +1,4 @@
-package com.jason.exercises.jdk.lambda;
+package com.exercises.foundation.lambda;
 
 import org.junit.Assert;
 import org.junit.Test;
