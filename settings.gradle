@@ -16,4 +16,5 @@ findProject(':search:analyzer:analyzer-ansj')?.name = 'analyzer-ansj'
 
 include 'io:io-netty'
 findProject(':io:io-netty')?.name='io-netty'
+include 'disconf-test'
 
