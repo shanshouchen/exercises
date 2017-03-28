@@ -5,6 +5,8 @@ build/
 
 /*/build
 /.idea
+log
+classes
 # Ignore Gradle GUI config
 gradle-app.setting
 
@@ -21,3 +23,5 @@ gradle-app.setting
 .DS_Store
 data/
 library/
+/disconf/download/
+/disconf/download2/
